@@ -1,0 +1,35 @@
+.library{
+    font-size: 84px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(17, 239, 98);
+    font-weight: 600;
+}
+.welcome{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    height: 750px;
+    background-color: rgb(93, 93, 93,0.5);
+    background-image: url(1305890.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: green;
+    font-weight:1000;
+}
+button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(173, 235, 235);
+    border-radius: 20px;
+    border: 5px solid green;
+    color: green;
+    font-weight:1000;
+}
+button:active {
+    background-color: darkslategrey;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.add{
+    padding: 100px;
+}
